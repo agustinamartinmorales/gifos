@@ -22,5 +22,8 @@ body {
     /*Border-box = the width and height include content + padding + border*/
     box-sizing: border-box;
     width: 100%;
-    margin: 14rem auto;
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    /*margin: 0 14rem;*/
 }
