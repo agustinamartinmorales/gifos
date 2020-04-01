@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    /*1 REM = 10PX*/
+    /*wE JUST HAVE TO DIVIDE ALL PIXELS FOR 10 AND THATS OUR REM*/
+
+    /*Using percentage allows the user not just change value of font size it allows to zoom in the page*/
+    /*We divide 10/16 (16px is the default) = 62.5%*/
+    /*The % defines what 1REM is
+    In this case 10px*/
+    font-size: 62.5%;
+    width: 100%;
+}
+
+body {
+    /*Border-box = the width and height include content + padding + border*/
+    box-sizing: border-box;
+    width: 100%;
+    margin: 14rem auto;
+}
