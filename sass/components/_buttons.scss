@@ -8,4 +8,24 @@
         padding: 9px 26.5px 9px 26.5px;
         text-align: center;
     }
+
+    &_grey {
+        height: 3.6rem;
+        width: 7%;
+        background-color: $color-light-grey;
+
+        border: 1px solid $color-dark-grey;
+        @include innerShadowSmall;
+
+        text-align: center;
+        font-size: 1.6rem;
+        color: $color-grey;
+        
+        //To center vertically same as height
+        line-height: 3.6rem;
+
+        &-img {
+            margin-right: 10px;
+        }
+    }
 }

@@ -1,0 +1,15 @@
+@mixin innerShadowSmall {
+    box-shadow: inset -1px -1px 0 0 $color-purple, inset 1px 1px 0 0 $color-white;
+}
+
+@mixin innerShadow {
+    box-shadow: inset -2px -2px 0 0 $color-grey, inset 2px 2px 0 0 $color-white;
+}
+
+@mixin gradientColor {
+    background-image: linear-gradient(
+        270deg,
+        $color-pink, 
+        $color-light-blue);
+    background-size: cover;
+}
