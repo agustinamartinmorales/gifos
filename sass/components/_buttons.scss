@@ -1,0 +1,11 @@
+.button {
+    &_flecha {
+        height: 3.6rem;
+        width: 14.4rem;
+        background-color: $color-pink;
+
+        list-style: none;
+        padding: 9px 26.5px 9px 26.5px;
+        text-align: center;
+    }
+}

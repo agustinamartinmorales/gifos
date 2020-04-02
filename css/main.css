@@ -36,6 +36,14 @@ body {
     color: #fff;
     font-size: 1.4rem; }
 
+.button_flecha {
+  height: 3.6rem;
+  width: 14.4rem;
+  background-color: #F7C9F3;
+  list-style: none;
+  padding: 9px 26.5px 9px 26.5px;
+  text-align: center; }
+
 .header_ventana {
   margin: 0;
   width: 100%;
@@ -44,5 +52,57 @@ body {
   background-size: cover;
   /*horizontal vertical blur color*/
   box-shadow: 0 1px 0 #110038; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.5rem 14rem 1.9rem 14rem; }
+  .navigation_logo {
+    height: 6.4rem;
+    width: auto; }
+  .navigation_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%; }
+  .navigation_item {
+    height: 3.6rem;
+    width: 14.4rem;
+    background-color: #F7C9F3;
+    list-style: none;
+    padding: 9px 26.5px 9px 26.5px;
+    text-align: center;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #fff; }
+    .navigation_item:first-of-type {
+      margin-right: 16.5px; }
+    .navigation_item-solo {
+      /*height: 3.6rem;
+      width: 14.4rem;*/
+      list-style: none;
+      /*padding: 9px 26.5px 9px 26.5px;*/
+      text-align: center; }
+    .navigation_item-flecha {
+      height: 3.6rem;
+      width: 3.6rem;
+      list-style: none;
+      padding: 15px 13px 15px 13px;
+      text-align: center;
+      background-color: #F7C9F3;
+      margin-right: 16.5px;
+      border: 1px solid #110038;
+      box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #fff; }
+  .navigation_link {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    color: #110038;
+    font-size: 1.6rem;
+    text-decoration: none; }
+    .navigation_link-solo {
+      font-family: 'Chakra Petch', sans-serif;
+      font-weight: 400;
+      color: #110038;
+      font-size: 1.6rem;
+      text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

@@ -14,3 +14,77 @@
         box-shadow: 0 1px 0 $color-dark-blue;
     }
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 3.5rem 14rem 1.9rem 14rem;
+
+    &_logo {
+        height: 6.4rem;
+        width: auto;
+    }
+
+    &_buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 40%;
+    }
+
+    &_item {
+        height: 3.6rem;
+        width: 14.4rem;
+        background-color: $color-pink;
+
+        list-style: none;
+        padding: 9px 26.5px 9px 26.5px;
+        text-align: center;
+
+        border: 1px solid $color-dark-blue;
+        box-shadow: inset -1px -1px 0 0 $color-purple, inset 1px 1px 0 0 $color-white;
+
+        &:first-of-type {
+            margin-right: 16.5px;
+        }
+        
+
+        &-solo {
+            /*height: 3.6rem;
+            width: 14.4rem;*/
+            list-style: none;
+            /*padding: 9px 26.5px 9px 26.5px;*/
+            text-align: center;
+        }
+
+        &-flecha {
+            height: 3.6rem;
+            width: 3.6rem;
+            list-style: none;
+            padding: 15px 13px 15px 13px;
+            text-align: center;
+            background-color: $color-pink;
+            margin-right: 16.5px;
+
+            border: 1px solid $color-dark-blue;
+            box-shadow: inset -1px -1px 0 0 $color-purple, inset 1px 1px 0 0 $color-white;
+        }
+    }
+
+    &_link {
+        font-family: 'Chakra Petch', sans-serif;
+        font-weight: 400;
+        color: $color-dark-blue;
+        font-size: 1.6rem;
+        text-decoration: none;
+
+        &-solo {
+            font-family: 'Chakra Petch', sans-serif;
+            font-weight: 400;
+            color: $color-dark-blue;
+            font-size: 1.6rem;
+            text-decoration: none;
+        }
+    }
+}
