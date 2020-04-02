@@ -37,13 +37,6 @@ body {
     font-size: 1.4rem;
     padding: 3px; }
 
-.button_flecha {
-  height: 3.6rem;
-  width: 14.4rem;
-  background-color: #F7C9F3;
-  list-style: none;
-  padding: 9px 26.5px 9px 26.5px;
-  text-align: center; }
 .button_grey {
   height: 3.6rem;
   width: 7%;

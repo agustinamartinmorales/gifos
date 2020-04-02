@@ -67,7 +67,7 @@
             margin-right: 16.5px;
 
             border: 1px solid $color-dark-blue;
-            box-shadow: inset -1px -1px 0 0 $color-purple, inset 1px 1px 0 0 $color-white;
+            @include innerShadowSmall;
         }
     }
 
