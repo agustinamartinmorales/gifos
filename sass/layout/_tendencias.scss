@@ -1,0 +1,27 @@
+.tendencias_box {
+    width: 28.8rem;
+    
+    display: flex;
+    flex-direction: column;
+
+    &-titulo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-content {
+
+    }
+
+    &-img {
+
+    }
+}
+
+.button_x {
+    height: 1.4rem;
+    width: auto;
+
+    align-self: center;
+    margin-right: 8px;
+}

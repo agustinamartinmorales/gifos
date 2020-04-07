@@ -33,10 +33,9 @@
         <div class="buscador">
             <h3 class="titulo_ventana buscador_titulo">Buscar</h3>
             <div class="buscador_content">
-            <label for="buscador"></label>
-            <input class="buscador_barra" type="text" id="buscador" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
-
-            <a class="button_grey"><img class="button_grey-img" src="img/lupa_inactive.svg" alt="">Buscar</a>
+                <label for="buscador"></label>
+                <input class="buscador_barra" type="search" id="buscador" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">
+                <a class="button_grey"><img class="button_grey-img" src="img/lupa_inactive.svg" alt="">Buscar</a>
             </div>
         </div>
     </header>
@@ -45,11 +44,14 @@
     <section class="tendencias">
         <h2 class="titulo_sub">Hoy te sugerimos:</h2>
         <div class="tendencias_box">
-            <div class="tendencias_box-titulo">
-                <h3 class="titulo_ventana buscador_titulo">#Titulo</h3>
-                <p class="button_x">X</p>
+            <div class="tendencias_box-titulo buscador_titulo">
+                <h3 class="titulo_ventana">#Titulo</h3>
+                <img src="img/button3.svg" alt="Button" class="button_x">
             </div>
-            
+            <div class="tendencias_box-content">
+                <img src="" alt="" class="tendencias_box-img">
+                <a href="" class="tendencias_box-btn">Ver Más</a>
+            </div>
         </div>
     </section>
 
@@ -58,6 +60,8 @@
     <footer class="footer">
 
     </footer>
+
+    <script src="script.js" type="text/javascript"></script>
 </body>
 
 </html>
