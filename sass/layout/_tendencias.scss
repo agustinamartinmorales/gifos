@@ -1,77 +1,72 @@
 .tendencias {
+    display: flex;
+    flex-direction: column;
 
     margin: 0 14rem 0 10rem;
 
     &_content {
+
+        &-1 {
         display: flex;
         justify-content: space-between;
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+
+            height: 29.8rem;
+            width: 28.8rem;
+        }
+
+        &-img {
+            height: 29.8rem;
+            width: 28.8rem;
+
+            position: absolute;
+            z-index: 1;
+        }
+
+        &-text {
+
+        }
     }
 
-    &_box {
-        height: 31.3rem;
-        width: 28.8rem;
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        &-2 {
+            display: flex;
+            justify-content: space-between;
 
-        background-color: $color-light-grey;
-        box-shadow: inset -2px -2px 0 0 $color-grey, inset 2px 2px 0 0 $color-white;
+            margin-top: 1.6rem;
 
-    &-titulo {
-        align-self: center;
+            &-long {
+                width: 59.2rem;
+                height: 29.8rem;
+            }
 
-        width: 28rem;
-        display: flex;
-        justify-content: space-between;
+            &-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: baseline;
+    
+                height: 29.8rem;
+                width: 28.8rem;
+            }
+
+            &-img {
+                position: absolute;
+                z-index: 1;
+
+                height: 29.8rem;
+                width: 28.8rem;
+
+                &-long {
+                    width: 59.2rem;
+                    height: 29.8rem;
+
+                    position: absolute;
+                    z-index: 1;
+                }
+            }
+        }
     }
-
-    &-content {
-        align-self: center;
-
-        height: 28rem;
-        width: 28rem;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    &-img {
-        position: absolute;
-        z-index: 1;
-
-        height: 28rem;
-        width: 28rem;
-    }
-
-    &-btn {
-        position: relative;
-        z-index: 2;
-        top: 23.1rem;
-        left: 1.1rem;
-
-        height: 3.4rem;
-        width: 8.1rem;
-
-        font-family: 'Chakra Petch', sans-serif;
-        font-weight: 400;
-        font-size: 1.4rem;
-        color: $color-white;
-        text-align: center;
-        text-decoration: none;
-        line-height: 3rem;
-
-        background-color: $color-light-blue;
-        border: 1px solid $color-medium-blue;
-        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 $color-white;
-    }
-}
-}
-
-.button_x {
-    height: 1.4rem;
-    width: auto;
-
-    align-self: center;
-    margin-right: 8px;
 }

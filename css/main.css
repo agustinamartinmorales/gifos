@@ -48,6 +48,21 @@ body {
     background: #FFFAFE;
     border: 1px solid #E6BBE2; }
 
+.text_hover {
+  position: relative;
+  z-index: 2;
+  top: 27.4rem;
+  left: 0;
+  height: 2.4rem;
+  width: 100%;
+  background-image: linear-gradient(270deg, #F7C9F3, #4180F6);
+  background-size: cover;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 3px; }
+
 .button_grey {
   height: 3.6rem;
   width: 10.2rem;
@@ -156,11 +171,53 @@ body {
       padding: 13px 16px; }
 
 .tendencias {
+  display: flex;
+  flex-direction: column;
   margin: 0 14rem 0 10rem; }
-  .tendencias_content {
+  .tendencias_content-1 {
     display: flex;
     justify-content: space-between; }
-  .tendencias_box {
+    .tendencias_content-1-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      height: 29.8rem;
+      width: 28.8rem; }
+    .tendencias_content-1-img {
+      height: 29.8rem;
+      width: 28.8rem;
+      position: absolute;
+      z-index: 1; }
+  .tendencias_content-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem; }
+    .tendencias_content-2-long {
+      width: 59.2rem;
+      height: 29.8rem; }
+    .tendencias_content-2-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: baseline;
+      height: 29.8rem;
+      width: 28.8rem; }
+    .tendencias_content-2-img {
+      position: absolute;
+      z-index: 1;
+      height: 29.8rem;
+      width: 28.8rem; }
+      .tendencias_content-2-img-long {
+        width: 59.2rem;
+        height: 29.8rem;
+        position: absolute;
+        z-index: 1; }
+
+.sugerencias {
+  margin: 0 14rem 0 10rem; }
+  .sugerencias_content {
+    display: flex;
+    justify-content: space-between; }
+  .sugerencias_box {
     height: 31.3rem;
     width: 28.8rem;
     display: flex;
@@ -168,23 +225,23 @@ body {
     justify-content: center;
     background-color: #E6E6E6;
     box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #fff; }
-    .tendencias_box-titulo {
+    .sugerencias_box-titulo {
       align-self: center;
       width: 28rem;
       display: flex;
       justify-content: space-between; }
-    .tendencias_box-content {
+    .sugerencias_box-content {
       align-self: center;
       height: 28rem;
       width: 28rem;
       display: flex;
       flex-direction: column; }
-    .tendencias_box-img {
+    .sugerencias_box-img {
       position: absolute;
       z-index: 1;
       height: 28rem;
       width: 28rem; }
-    .tendencias_box-btn {
+    .sugerencias_box-btn {
       position: relative;
       z-index: 2;
       top: 23.1rem;

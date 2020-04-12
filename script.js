@@ -20,25 +20,38 @@ function init () {
                 /*let img = document.querySelector(".tendencias_box-img");
                 img.src = content.data[0].images.fixed_width.url;*/
                 for (let i = 0; i < content.data.length; i++) {
-                    let img = document.querySelectorAll(".tendencias_box-img")[i];
+                    let img = document.querySelectorAll(".sugerencias_box-img")[i];
                     img.src = content.data[i].images.fixed_width.url;
                 }
             });
     });
 }; //To stop the page to reload
 
-/*function init() {
-        fetch(url)
-            .then(response => response.json())
-            .then(content => {
-                //Data //Pagination //Meta
-                console.log(content.data);
-                console.log("META", content.meta);
-                let img = document.querySelector(".tendencias_box-img");
-                img.src = content.data[0].images.downsized.url;
-            });
-            .catch(err => {
-                console.error(err);
-              });
-    });
-};*/
+
+let x = document.querySelectorAll(".tendencias_content-1-box");
+
+x.forEach(function(div) {
+    div.addEventListener("mouseover", function(){ imgOver(div) });
+    div.addEventListener("mouseout", function(){ imgUnover(div) });
+});
+
+/*function mOverImg(img) {
+    img.style.opacity="0";
+  }
+  
+  function mOutImg(img) {
+    img.style.opacity="1";
+  }*/
+
+function imgOver(div) {
+    div.style.border = "5px solid #110038";
+    let p = document.getElementById("p");
+    p.className = "text_hover";
+}
+
+function imgUnover(div) {
+    div.style.border = "none";
+    let p = document.getElementById("p");
+    p.className = "text_hide";
+}
+
