@@ -10,26 +10,22 @@
         display: flex;
         justify-content: space-between;
 
-        &-box {
-            display: flex;
-            flex-direction: column;
-            justify-content: baseline;
+            &-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: baseline;
 
-            height: 29.8rem;
-            width: 28.8rem;
-        }
+                height: 29.8rem;
+                width: 28.8rem;
+            }
 
-        &-img {
-            height: 29.8rem;
-            width: 28.8rem;
+            &-img {
+                height: 29.8rem;
+                width: 28.8rem;
 
-            position: absolute;
-            z-index: 1;
-        }
-
-        &-text {
-
-        }
+                position: absolute;
+                z-index: 1;
+            }
     }
 
         &-2 {

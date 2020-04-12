@@ -47,6 +47,12 @@
         &:first-of-type {
             margin-right: 16.5px;
         }
+
+        &:hover,
+        &:active {
+            outline: 1px dashed $color-dark-blue;
+            outline-offset: -4px;
+        }
         
 
         &-solo {
@@ -55,6 +61,12 @@
             list-style: none;
             /*padding: 9px 26.5px 9px 26.5px;*/
             text-align: center;
+
+            &:hover,
+            &:active {
+                outline: 1px dashed $color-dark-blue;
+                outline-offset: 7px;
+            }
         }
 
         &-flecha {
@@ -68,6 +80,12 @@
 
             border: 1px solid $color-dark-blue;
             @include innerShadowSmall;
+
+            &:hover,
+            &:active {
+                outline: 1px dashed $color-dark-blue;
+                outline-offset: -4px;
+            }
         }
     }
 
@@ -84,6 +102,10 @@
             color: $color-dark-blue;
             font-size: 1.6rem;
             text-decoration: none;
+
+            &_m {
+                text-decoration: underline;
+            }
         }
     }
 }

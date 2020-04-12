@@ -28,30 +28,30 @@ function init () {
 }; //To stop the page to reload
 
 
+/* HOVER FUNCTION
+
 let x = document.querySelectorAll(".tendencias_content-1-box");
+let pr;
 
 x.forEach(function(div) {
-    div.addEventListener("mouseover", function(){ imgOver(div) });
-    div.addEventListener("mouseout", function(){ imgUnover(div) });
+    div.addEventListener("mouseover", function(){ imgHover(div) });
+    div.addEventListener("mouseout", function(){ imgUnhover(div) });
 });
 
-/*function mOverImg(img) {
-    img.style.opacity="0";
-  }
-  
-  function mOutImg(img) {
-    img.style.opacity="1";
-  }*/
-
-function imgOver(div) {
-    div.style.border = "5px solid #110038";
-    let p = document.getElementById("p");
-    p.className = "text_hover";
+function imgHover(div) {
+    div.style.outline = "5px solid #110038";
+    
+    for (let i = 0; i < x.length; i++) {
+        let pr = document.getElementsByClassName("text_hide")[i];
+        pr.className = "text_hover";
+    }
 }
 
-function imgUnover(div) {
-    div.style.border = "none";
-    let p = document.getElementById("p");
-    p.className = "text_hide";
-}
+function imgUnhover(div) {
+    div.style.outline = "none";
+    for (let i = 0; i < x.length; i++) {
+        let pr = document.getElementsByClassName("text_hover")[i];
+        pr.className = "text_hide";
+    }
+}*/
 
