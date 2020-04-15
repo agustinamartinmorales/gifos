@@ -38,6 +38,7 @@ body {
     padding: 3px; }
   .titulo_sub {
     height: 3.2rem;
+    width: 100%;
     font-family: 'Chakra Petch', sans-serif;
     font-weight: 400;
     font-size: 1.4rem;
@@ -193,6 +194,11 @@ body {
   align-items: flex-start;
   background-color: #E6E6E6;
   box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #fff; }
+  .buscador_tendencias {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%; }
   .buscador_titulo {
     height: 2.4rem;
     width: 100%;
